@@ -56,11 +56,22 @@ body, #slider, .wrap {
     left: 0;
     margin-left: 30px;
     border-color: transparent white transparent transparent;
+    opacity: 0;
 }
 
+#arrow-left:hover{
+    opacity: 1;
+    transition: 0.5 ease-out all;
+}
 #arrow-right {
     border-width: 30px 0px 30px 40px;
     right: 0;
     margin-right: 30px;
     border-color: transparent transparent transparent white;
+    opacity: 0;
+}
+
+#arrow-right:hover {
+    opacity: 1;
+    transition: 0.5 ease-out all;
 }
