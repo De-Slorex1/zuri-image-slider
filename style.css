@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, #slider, .wrap {
+    margin: 0; 
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.wrap{
+    position: relative;
+}
+
+#slider .slide {
+    width: 100%;
+    height: 100vh;  
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat; 
+}
+
+.slide1 {
+    background-image: url(images/arrow_supergirl_flash_legends_of_tomorrow_4k-2560x1600.jpg);
+}
+.slide2 {
+    background-image: url(images/chris_hemsworth_natalie_portman_christian_bale_taika_waititi_tessa_thompson_russell_crowe_brett_goldstein_4k_hd_thor_love_and_thunder-1366x768.jpg);
+}
+.slide3 {
+    background-image: url(images/coco_keyart_hd_5k-1920x1080.jpg);
+}
+.slide4 {
+    background-image: url(images/doctor_strange_fan_cool_art_hd_doctor_strange_in_the_multiverse_of_madness-1366x768.jpg);
+}
+.slide5 {
+    background-image: url(images/felino_cb7r-1600x900.jpg);
+}
+.slide6 {
+    background-image: url(images/stranger_things_season_3_5k-2560x1440.jpg);
+}
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+#arrow-left {
+    border-width: 30px 40px 30px 0px;
+    left: 0;
+    margin-left: 30px;
+    border-color: transparent white transparent transparent;
+}
+
+#arrow-right {
+    border-width: 30px 0px 30px 40px;
+    right: 0;
+    margin-right: 30px;
+    border-color: transparent transparent transparent white;
+}
